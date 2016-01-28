@@ -32,3 +32,8 @@ In order for the Gulpfile.ts to function properly we must provide with TypeScrip
 |               +-- tsd                    - tsd install command stores the definition files
 |               +-- 
 ```
+
+### Clone this
+```
+git clone -b typescript-workflow-with-gulp https://github.com/kdcllc/Angular-TypeScript-Starter.git
+```
