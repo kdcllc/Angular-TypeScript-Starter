@@ -14,8 +14,11 @@ This basic template uses TypeScript and Gulp workflow that lays the foundation m
 ### Project Configurations
 * npm install
 * tsd install
+
 ![alt tag](https://github.com/kdcllc/Angular-TypeScript-Starter/blob/typescript-workflow-with-gulp/content/tsd.install.1.PNG)
+
 * gulp - uses default tasks to print out
+
 ![alt tag](https://github.com/kdcllc/Angular-TypeScript-Starter/blob/typescript-workflow-with-gulp/content/gulp.default.PNG)
 
 ### Project structure for definitely typed
