@@ -38,7 +38,8 @@ In order for the Gulpfile.ts to function properly we must provide with TypeScrip
 git clone -b typescript-workflow-with-gulp https://github.com/kdcllc/Angular-TypeScript-Starter.git
 ```
 
-## Article
+## The Article
+[CodeProject.com published](http://www.codeproject.com/Tips/1075064/Gulp-Workflow-with-TypeScript)
 Introduction
 JavaScript's standards are constantly changing and different versions of the ECMA Scripts have been adopted by various vendors at various times. Google Angular development team embraced TypeScript open-source project by Microsoft for their latest re-write of Angular2 framework. That leaves all of the existing investment of Angular in a state of transition. 
 The goal of this article is to provide a first step of migrating existing Angular applications that utilize TypeScript to write Gulp to build workflows for your projects.
@@ -64,3 +65,14 @@ Second, tsconfig.json file contains the TypeScript compilation settings.
 Third, tools/typings/tsd folder contains all of the definitely typed files that we are going to use for our tooling.
 The project contains a minimal amount of code but allows you to begin converting existing Gulp JavaScript based workflows to Gulp TypeScript workflows.
 
+## Licence ##
+
+The MIT License
+
+Copyright (c) 2014-2016 (King David Consulting LLC)[https://kingdavidconsulting.com]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
