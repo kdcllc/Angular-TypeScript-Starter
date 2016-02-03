@@ -11,7 +11,8 @@ export const ENVIRONMENTS = {
 */
 export function getEnvironment(): string {
     if (argv.env != null) {
-        if (argv.env.prod === ENVIRONMENTS.PRODUCTION) {
+    
+        if (argv.env === ENVIRONMENTS.PRODUCTION) {
             return ENVIRONMENTS.PRODUCTION;
         } else {
             //ability to extend more enviroments from here

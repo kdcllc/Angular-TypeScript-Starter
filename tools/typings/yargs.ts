@@ -6,13 +6,8 @@ declare namespace yargs {
 }
 
 interface InputDef {
-    env: ENVIRONMENTS;
+    env: string;
 }
-
-interface ENVIRONMENTS {
-    dev: string;
-    prod: string;
-};
 
 declare module 'yargs' {
     export = yargs
