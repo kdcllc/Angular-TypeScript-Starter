@@ -5,22 +5,23 @@
   "author": "King David Consulting LLC",
   "license": "MIT",
   "homepage": "https://github.com/kdcllc/Angular-TypeScript-Starter",
-   "repository": {
+  "repository": {
     "url": "https://github.com/kdcllc/Angular-TypeScript-Starter.git",
     "type": "git"
   },
   "tags": [
-      "angular",
-      "typescript",
-      "Definitely typed"
+    "angular",
+    "typescript",
+    "Definitely typed"
   ],
   "scripts": {
+    "postinstall": "tsd install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "devDependencies": {
     "gulp": "^3.9.0",
     "ts-node": "^0.5.5",
-    "typescript": "^1.7.5"
+    "typescript": "^1.7.5",
+    "yargs": "^3.32.0"
   }
 }
