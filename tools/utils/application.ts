@@ -6,11 +6,17 @@ export const ENVIRONMENTS = {
     PRODUCTION: 'prod'
 };
 
+/*
+    retreive enviroment variable that is passed into the system
+*/
 export function getEnvironment(): string {
-    let base = argv['_'];
-    let prodKeyword = !!base.filter(o => o.indexOf(ENVIRONMENTS.PRODUCTION) >= 0).pop();
-    if (base && prodKeyword || argv['env'] === ENVIRONMENTS.PRODUCTION) {
-        return ENVIRONMENTS.PRODUCTION;
+    if (argv.env != null) {
+        if (argv.env.prod === ENVIRONMENTS.PRODUCTION) {
+            return ENVIRONMENTS.PRODUCTION;
+        } else {
+            //ability to extend more enviroments from here
+            return ENVIRONMENTS.DEVELOPMENT;
+        }
     } else {
         return ENVIRONMENTS.DEVELOPMENT;
     }

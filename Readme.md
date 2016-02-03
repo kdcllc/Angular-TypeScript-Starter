@@ -33,12 +33,18 @@ In order for the Gulpfile.ts to function properly we must provide with TypeScrip
 |               +-- 
 ```
 
-### Clone this
+### Clone by branch
 ```
 git clone -b typescript-workflow-with-gulp https://github.com/kdcllc/Angular-TypeScript-Starter.git
 ```
 
-## The Article
+### Clone by tag
+```
+git clone -b 01-init https://github.com/kdcllc/Angular-TypeScript-Starter.git
+```
+
+## 01-init Step - Gulp Workflow with TypeScript
+You can get the code for the following article using tag: 01-init
 [CodeProject.com published](http://www.codeproject.com/Tips/1075064/Gulp-Workflow-with-TypeScript)
 Introduction
 JavaScript's standards are constantly changing and different versions of the ECMA Scripts have been adopted by various vendors at various times. Google Angular development team embraced TypeScript open-source project by Microsoft for their latest re-write of Angular2 framework. That leaves all of the existing investment of Angular in a state of transition. 
