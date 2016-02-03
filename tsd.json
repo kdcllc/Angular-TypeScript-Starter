@@ -5,7 +5,9 @@
   "path": "tools/typings/tsd",
   "bundle": "tools/typings/tsd/tsd.d.ts",
   "installed": {
-  
+     "systemjs/systemjs.d.ts": {
+      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+    },
     "gulp/gulp.d.ts": {
       "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
     },
