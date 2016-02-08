@@ -46,12 +46,12 @@ git clone -b 01-init https://github.com/kdcllc/Angular-TypeScript-Starter.git
 ## 01-init Step 1 - Gulp Workflow with TypeScript
 You can get the code for the following article using tag: 01-init
 [CodeProject.com published](http://www.codeproject.com/Tips/1075064/Gulp-Workflow-with-TypeScript)
-Introduction
+### Introduction
 JavaScript's standards are constantly changing and different versions of the ECMA Scripts have been adopted by various vendors at various times. Google Angular development team embraced TypeScript open-source project by Microsoft for their latest re-write of Angular2 framework. That leaves all of the existing investment of Angular in a state of transition. 
 The goal of this article is to provide a first step of migrating existing Angular applications that utilize TypeScript to write Gulp to build workflows for your projects.
 On a personal note, I prefer well-structured code with the ability to divide it into sections instead of being overwhelmed by DevOps code. TypeScript provides us with the ability to write classes for reuse within the Gulp Tasks.
 This article assumes the basic knowledge of Node.js, Gulp and Angular Js. 
-Setting Up the Project
+###Setting Up the Project
 Please make sure that you have the following installed:
 1.	Git for your operating system of choice
 2.	Node.js
@@ -72,10 +72,10 @@ Third, tools/typings/tsd folder contains all of the definitely typed files that 
 The project contains a minimal amount of code but allows you to begin converting existing Gulp JavaScript based workflows to Gulp TypeScript workflows.
 
 ## 02-env Step 2 - Gulp Workflow with TypeScript Adding Support for Environments
-Introduction
+###Introduction
 In my previous tip, “Gulp Workflow with TypeScript”, I established the seed project that runs TypeScript Gulpfile.ts file natively instead of Gulpfile.js for the Gulp build workflows. This seed project is a great start for ASP.NET MVC, Angular, Express, etc. type projects. The basic setup will also work for Visual Studio.NET 2013-2015 and Visual Studio Code. In this tip, I am going to add custom build environment variables for the Gulp build system. These variables will be used in later tips to process different build actions based on the targeted environment.
 
-Background
+###Background
 Microsoft ASP.NET has a powerful optimization engine for JavaScript, CSS and other assets that developers can utilize for their web projects in order to bundle, optimize and build modern web applications. This optimization engine is based on the environment settings of Visual Studio.NET solution and the build framework is build-in into the tooling of the Visual Studio.NET. In open-source community, each project has to develop its own build tooling and methodology to support various build outputs. For our purposes, we will be focusing on development and production environment paths.
 
 By default, Gulp command line interface (CLI) supports the ability to extend the input of variables through a command line. I am going to use YARGS npm package. To achieve the following command line syntax:
@@ -215,12 +215,12 @@ Try to run the following commands to see the results:
 
 You should see the output of the environment change with the change in the command line switch.
 
-Other info
+###Other info
 Node.js is a powerful server-side JavaScript execution engine that runs many different operating systems by taking advantage of the Google Chrome 8 JavaScript execution engine. Thus, this project can work on any operating system that Node.js supports.
 
 I am using Windows 10 to develop and test the code. Please feel free to leave any missing steps, etc. for other operating systems.
 
-In Conclusion
+###In Conclusion
 In this tip, we stepped through creating a custom reusable application utility to read environment targets based on YARGS library. We also wrote our own custom type definition. In the future tips, I hope to use this code to create different build paths based on the environments.
 
 ## Licence ##
