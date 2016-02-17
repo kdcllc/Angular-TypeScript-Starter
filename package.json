@@ -2,6 +2,8 @@
   "name": "AngularJsTemplate",
   "version": "1.0.0",
   "description": "Basic Angular 1.x template project with TypeScript moving forward with Angular2",
+  "email": "info@kingdavidconsulting.com",
+  "url": "https://kingdavidconsulting.com",
   "author": "King David Consulting LLC",
   "license": "MIT",
   "homepage": "https://github.com/kdcllc/Angular-TypeScript-Starter",
@@ -12,6 +14,8 @@
   "tags": [
     "angular",
     "typescript",
+    "gulp",
+    "webpack",
     "Definitely typed"
   ],
   "scripts": {
@@ -23,5 +27,9 @@
     "ts-node": "^0.5.5",
     "typescript": "^1.7.5",
     "yargs": "^3.32.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap-sass": "^3.3.6"
   }
 }
