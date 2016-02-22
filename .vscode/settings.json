@@ -10,7 +10,6 @@
         "**/.git": true,
         "**/plugins": true,
         "**/platforms": true,
-        "**/.DS_Store": true,
-        "**/*.js": {"when": "$(basename).ts"}
+        "**/.DS_Store": true
     }
 }

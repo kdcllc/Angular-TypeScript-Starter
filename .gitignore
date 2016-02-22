@@ -3,3 +3,9 @@ node_modules
 
 ## Type Definitions but will include custom typings
 tools/typings/tsd
+
+## Compiled Js
+tools/**/*.js
+tools/**/*.map
+app/**/*.js
+app/**/*.map

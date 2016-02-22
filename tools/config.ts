@@ -1,3 +1,10 @@
 import {getEnvironment} from './utils/application';
 
-export const ENV = getEnvironment() ;
+export const ENV                    = getEnvironment() ;
+
+export const TOOLS_DIR              = 'tools';
+
+//used by check.versions task
+export const VERSION_NPM          = '2.14.2';
+export const VERSION_NODE         = '4.0.0';
+

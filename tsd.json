@@ -5,23 +5,23 @@
   "path": "tools/typings/tsd",
   "bundle": "tools/typings/tsd/tsd.d.ts",
   "installed": {
-     "systemjs/systemjs.d.ts": {
+    "systemjs/systemjs.d.ts": {
       "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
     },
     "gulp/gulp.d.ts": {
-      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
     },
     "q/Q.d.ts": {
-      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
     },
     "orchestrator/orchestrator.d.ts": {
-      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
     },
     "es6-promise/es6-promise.d.ts": {
       "commit": "923c5431d9447db9d5cf41adc5914e3c94c1ff10"
     },
     "node/node.d.ts": {
-      "commit": "138ad74b9e8e6c08af7633964962835add4c91e2"
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
     },
     "gulp-util/gulp-util.d.ts": {
       "commit": "5a8fc5ee71701431e4fdbb80c506e3c13f85a9ff"
@@ -38,7 +38,6 @@
     "vinyl-source-stream/vinyl-source-stream.d.ts": {
       "commit": "ffceea9dd124d277c4597c7bd12930666ec074c5"
     },
-   
     "jquery/jquery.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
@@ -60,26 +59,35 @@
     "angularjs/angular-cookies.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
-    
-     "angular-ui-router/angular-ui-router.d.ts": {
+    "angular-ui-router/angular-ui-router.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
     "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
-    
     "moment/moment.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
     "moment/moment-node.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
-    
-     "jasmine/jasmine.d.ts": {
+    "jasmine/jasmine.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
     },
     "karma-jasmine/karma-jasmine.d.ts": {
       "commit": "bb051830df88f5a55dcf06b7fe85bf6b62cc97f2"
+    },
+    "yargs/yargs.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "wrench/wrench.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "semver/semver.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "run-sequence/run-sequence.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
     }
   }
 }
