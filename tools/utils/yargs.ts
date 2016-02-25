@@ -21,7 +21,7 @@ export var argv = yargs
         default: 'dev',
         description: "set build enviroment"
     })
-     .option("save", {
+    .option("save", {
         alias: "s",
         default: '--save-dev',
         description: "save-dev dependecies"
@@ -45,14 +45,18 @@ function addGlobals(argv: yargs.Argv) {
         .usage('Usage: $0 -x [num]')
         .showHelpOnFail(false, "Specify --help for available options");
     return argv;
+    
 }
 
 export interface ICommandLineArgs {
-    env: string;
+
     save: string;
     library: string;
     debug?: boolean;
     debugBrk?: boolean;
     nosync?: boolean;
     verbose?: boolean;
+    /* tslint:disable */
+    env: "dev" | "prod" | "qa";
+    /* tslint:enable */ 
 }
