@@ -12,3 +12,5 @@ gulp.task('default', done => {
 gulp.task('check.versions', task('check.versions'));
 
 gulp.task('install', task('install.packages'));
+
+gulp.task('docs', task('build.docs'));

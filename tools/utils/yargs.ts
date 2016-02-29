@@ -30,6 +30,7 @@ export var argv = yargs
         alias: "l",
         description: "libary provided"
     });
+    
 function addGlobals(argv: yargs.Argv) {
     argv
         // version

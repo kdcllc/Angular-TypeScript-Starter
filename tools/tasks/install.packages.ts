@@ -9,6 +9,7 @@ function reportError(message: string) {
 }
 
 //TODO: add tsd global flag when needed to be
+//depreciated due to usgage of Typings
 module.exports = function installPackages(gulp, plugins, options) {
     return function(done) {
         let async = require('async');
@@ -38,6 +39,7 @@ module.exports = function installPackages(gulp, plugins, options) {
         async.series([
             execFn('npm i ' + command + ' ' + lib, __dirname)
             , execFn('tsd query -r -o -a install ' + lib + ' --save', '')
+           // , execFn('typings install ' + lib + ' -A  --save', '')
         ], done);
     };
 

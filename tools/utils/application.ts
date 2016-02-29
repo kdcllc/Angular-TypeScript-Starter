@@ -1,5 +1,6 @@
 
 import {argv} from 'yargs';
+import * as fs from 'fs';
 
 export const ENVIRONMENTS = {
     DEVELOPMENT: 'dev',
@@ -21,4 +22,8 @@ export function getEnvironment(): string {
     } else {
         return ENVIRONMENTS.DEVELOPMENT;
     }
+}
+
+export function getApplicationTitle(): string {
+    return JSON.parse(fs.readFileSync("package.json", "utf8")).description;
 }

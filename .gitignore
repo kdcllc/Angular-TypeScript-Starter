@@ -10,3 +10,6 @@ tools/**/*.js
 tools/**/*.map
 app/**/*.js
 app/**/*.map
+
+## documentation
+docs
