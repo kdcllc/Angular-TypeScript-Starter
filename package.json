@@ -19,7 +19,7 @@
     "Definitely typed"
   ],
   "scripts": {
-    "postinstall": "tsd install",
+    "postinstall": "typings install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -29,6 +29,7 @@
     "gulp": "^3.9.0",
     "gulp-load-plugins": "^1.2.0",
     "gulp-typedoc": "^1.2.1",
+    "gulp-util": "^3.0.7",
     "run-sequence": "^1.1.5",
     "save-dev": "^2.0.0",
     "semver": "^5.1.0",
