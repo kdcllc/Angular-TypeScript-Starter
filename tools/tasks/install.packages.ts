@@ -26,7 +26,7 @@ module.exports = function installPackages(gulp, plugins, options) {
         
         switch (args.save) {
             case 'g':
-                command = '--g';
+                command = '-g';
              break;
             case 'r':
                 command = '--save';
@@ -38,8 +38,8 @@ module.exports = function installPackages(gulp, plugins, options) {
 
         async.series([
             execFn('npm i ' + command + ' ' + lib, __dirname)
-            , execFn('tsd query -r -o -a install ' + lib + ' --save', '')
-           // , execFn('typings install ' + lib + ' -A  --save', '')
+            //, execFn('tsd query -r -o -a install ' + lib + ' --save', '')
+            , execFn('typings install ' + lib + ' -A  --save', '')
         ], done);
     };
 
